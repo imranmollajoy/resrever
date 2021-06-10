@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;800&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #000;
+
+  /* Primary colors*/
+  --primary-1: #2b8379;
+  --primary-2: #19a596;
+  --primary-3: #7fd1c7;
+  --primary-4: #7fd1c7;
+  --primary-5: #d0f3ef;
+
+  /* Neutral colors */
+  --neutral-1: white;
+  --neutral-2: #2d3436;
+  --neutral-3: #94868b;
+  --neutral-4: #d9cfd3;
+  --neutral-5: #f2ecee;
+
+  /* Accent-blue colors */
+  --accent-1: cyan;
+  --accent-2: #c43464;
+  --accent-3: #de7699;
+  --accent-4: #e6c3ce;
+  --accent-5: #fff2f7;
+}
+*{font-family: 'Saira', sans-serif;
+text-align:center;}
+body {
+  background-color: var(--neutral-2);
+  margin: 0;
+  
+  color: var(--neutral-1);
+}
+main{
+padding:40px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height:56%;
+}
+button{
+padding:4px;
+border-radius :5px;
+background-color: var(--accent-1);
+width:100%;
+}
+
+textarea{
+width:100%;
+text-align:left;
+border-radius :5px;
+}
+
+#footer {
+   position:fixed;
+   bottom:0;
+   width:100%;
+   height:42px;
+   background: var(--neutral-1);
+   color: var(--neutral-2);
+}
+.accent{color: var(--accent-1);}
