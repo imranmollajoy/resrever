@@ -68,3 +68,7 @@ border-radius :5px;
    color: var(--neutral-2);
 }
 .accent{color: var(--accent-1);}
+.container{
+  max-width:1024px;
+  margin: 0 auto;
+}
