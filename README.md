@@ -1,6 +1,6 @@
 # resrever
     A test project of mine.
     For reversing some sentences and vice versa.
-    Pretty generic.
+    [Visit](https://imranmollajoy.github.io/resrever/)
     
     Made for JavaScript exercise.
